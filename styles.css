@@ -1,0 +1,48 @@
+/* Color Theme
+#AFC97E
+#D4E6B5
+*/
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color: #D4E6B5;
+    padding: 0px;
+    margin: 0px;
+}
+
+#hero {
+    text-align: center;
+    padding: 3rem;
+    background-color: #AFC97E;
+    margin: 0px;
+}
+
+hr {
+    border-radius: 50px;
+    width: 80%;
+}
+
+#photos-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.photo-blob {
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 25px;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 1rem;
+    background-color: #AFC97E;
+}
+
+img {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 25px;
+    object-fit: cover;
+}
